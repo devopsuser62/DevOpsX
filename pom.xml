@@ -49,11 +49,8 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
-            </plugin>
-
             <plugin>
               <artifactId>maven-jxr-plugin</artifactId>
             </plugin>
@@ -79,7 +76,6 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
-          </reportPlugins>
         </configuration>
       </plugin>
     </plugins>
