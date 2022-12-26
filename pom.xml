@@ -4,11 +4,20 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
   <groupId>com.devopsuserxmaven</groupId>
   <artifactId>freexxx-devopsuserx-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>freexxx-devopsuserx-project</name>
+=======
+  <groupId>com.devopsgalaxyX</groupId>
+  <artifactId>GalaxyX</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <name>GalaxyX Maven Webapp</name>
+>>>>>>> f3b28d5 (Recent Commit)
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -28,14 +37,24 @@
   </dependencies>
 
   <build>
+<<<<<<< HEAD
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+=======
+    <finalName>GalaxyX</finalName>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+>>>>>>> f3b28d5 (Recent Commit)
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
         </plugin>
+<<<<<<< HEAD
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+=======
+        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+>>>>>>> f3b28d5 (Recent Commit)
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
@@ -49,8 +68,13 @@
           <version>2.22.1</version>
         </plugin>
         <plugin>
+<<<<<<< HEAD
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+=======
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.2.2</version>
+>>>>>>> f3b28d5 (Recent Commit)
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
@@ -60,6 +84,7 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+<<<<<<< HEAD
         <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
@@ -69,6 +94,8 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+=======
+>>>>>>> f3b28d5 (Recent Commit)
       </plugins>
     </pluginManagement>
   </build>
